@@ -24,4 +24,9 @@ export class ShoppingServiceService {
   {
     return this.ingredients.slice();
   }
+
+  getConsole()
+  {
+    console.log("Just some Random Tesxt To verify the project update");
+  }
 }
